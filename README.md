@@ -1,3 +1,28 @@
+<div align="center">
+    
+## UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE  
+
+</div>
+
+<p align="center">
+  <a href="https://www.espe.edu.ec" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/Logo_ESPE.png" width="200" alt="Logo ESPE">
+  </a>
+</p>
+
+## Proyecto:
+- Resolución de Ejercicios.
+   
+– Aplicación de Web Semántica (JSON-LD) en una API REST con Laravel.
+
+
+## Arquitectura de software - Grupo 5  
+## Integrantes:
+
+- [Victor Villamarín](#integrantes)
+- [Betty Rodríguez](#integrantes)
+
+
 # 🏥 API REST - Web Semántica con Laravel
 
 Servidor backend Laravel que proporciona una API REST con soporte JSON-LD y Web Semántica. Incluye modelos para Médicos, Pacientes, Especialidades y Citas médicas con datos estructurados siguiendo Schema.org.
