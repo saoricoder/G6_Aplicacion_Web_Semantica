@@ -1,0 +1,196 @@
+/**
+ * Estilos para la página de bienvenida
+ * Sistema de Gestión Médica - Web Semántica
+ */
+
+/* Reset global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos del body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Contenedor principal */
+.container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Encabezados */
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.subtitle {
+    color: #666;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+/* Grid de modelos */
+.models-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+/* Tarjetas de modelos */
+.model-card {
+    background: #f8f9fa;
+    border: 2px solid #e9ecef;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.model-card:hover {
+    background: #e7f3ff;
+    border-color: #667eea;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+}
+
+.model-card a {
+    display: inline-block;
+    background: #667eea;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s ease;
+    width: 100%;
+    text-align: center;
+}
+
+.model-card a:hover {
+    background: #764ba2;
+}
+
+.model-icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.model-name {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Sección de API */
+.api-section {
+    background: #f0f4ff;
+    border-left: 4px solid #667eea;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.api-section h2 {
+    color: #667eea;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Lista de endpoints */
+.api-endpoints {
+    list-style: none;
+}
+
+.api-endpoints li {
+    color: #555;
+    padding: 8px 0;
+    border-bottom: 1px solid #e0e6ff;
+    font-size: 13px;
+    font-family: 'Courier New', monospace;
+}
+
+.api-endpoints li:last-child {
+    border-bottom: none;
+}
+
+/* Badge del método HTTP */
+.method {
+    background: #667eea;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-weight: bold;
+    margin-right: 8px;
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 25px;
+        max-width: 100%;
+    }
+
+    .models-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .subtitle {
+        font-size: 12px;
+    }
+
+    .api-endpoints li {
+        font-size: 12px;
+        padding: 6px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    .model-card {
+        padding: 15px;
+    }
+
+    .model-icon {
+        font-size: 24px;
+    }
+
+    .api-section {
+        padding: 15px;
+    }
+
+    .api-section h2 {
+        font-size: 14px;
+    }
+}
