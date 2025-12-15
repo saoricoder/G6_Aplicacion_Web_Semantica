@@ -16,7 +16,7 @@
 – Aplicación de Web Semántica (JSON-LD) en una API REST con Laravel.
 
 
-## Arquitectura de Software - Grupo 5  
+## Arquitectura de Software - Grupo 6 
 ## Integrantes:
 
 - Victor Villamarín
